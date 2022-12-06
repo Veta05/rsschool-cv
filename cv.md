@@ -10,9 +10,7 @@
 **GitHub:** @veta05
 
 **Discord:** Evetta#3496
-
-******
-
+***
 ## About myself
 
 I am studying at a technical school to become a junior software developer. There I realized that I wanted to choose the direction of the front-end. At the moment I devote time to this and I want to develop in this direction.
@@ -25,8 +23,7 @@ I love to learn, I love teamwork and I am stress tolerant.
 * Python
 * PHP
 * C#
-
-******
+***
 ## Code example
 ```
 id=""
@@ -92,13 +89,13 @@ else:
     print("Your ID number is wrong!")
 ```
 
-******
+***
 ## Education
 *2019* Gamma Inteligence, Python Courses
 
 *2021-...* Technical school - junior software developer
 
-******
+***
 ## Languages
 **Russian** native
 
