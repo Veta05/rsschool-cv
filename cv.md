@@ -28,6 +28,7 @@ I love to learn, I love teamwork and I am stress tolerant.
 
 ***
 ## Code example
+Every person in Estonia has their own personal code, which consists of the date of birth, gender and three identification numbers. This code checks if the person has entered the correct personal code
 ```
 id=""
 while len(id)!=11 or ik.isdigit()!=True:
