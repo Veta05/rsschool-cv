@@ -94,9 +94,9 @@ else:
 
 ***
 ## Education
-*2019* Gamma Inteligence, Python Courses
+***2019*** Gamma Inteligence, Python Courses
 
-*2021-...* Technical school - junior software developer
+***2021-...*** Technical school - junior software developer
 
 ***
 ## Languages
