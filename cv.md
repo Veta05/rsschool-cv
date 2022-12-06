@@ -23,6 +23,9 @@ I love to learn, I love teamwork and I am stress tolerant.
 * Python
 * PHP
 * C#
+* MySql
+* Access
+
 ***
 ## Code example
 ```
