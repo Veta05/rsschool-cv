@@ -2,13 +2,45 @@
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth; 
+  }
+
   body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
   .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  }
+
+  .nav-list {
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
+
+  .nav-link {
+    transition: .3s;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+
+  .section-title{
+    display: flex;
+    flex-wrap: wrap;
   }
