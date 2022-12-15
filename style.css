@@ -31,10 +31,7 @@
     transition: .3s;
   }
 
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
   
   .section {
     width: 50%;
