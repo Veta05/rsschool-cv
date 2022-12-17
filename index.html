@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelizaveta Aia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assetse/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#myself" class="nav-link">About myself</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+    </header>
+    <section class="section-title">
+        <div class="section-name">
+        <h1>Jelizaveta Aia</h1>
+        <h2>Front-end Developer(beginner)</h2>
+        </div>
+        <img src="assets/photo.jpg" alt="My photo" class="myphoto">
+    </section>
+    <main class="main-container">
+        <div class="container">
+        <section class="section-contacts" id="contacts">
+            <h2>Contacts: </h2>
+            <p class="contacts-p"><img src="https://cdn-icons-png.flaticon.com/512/5103/5103372.png" alt="phone icon" class="icons"><span>Phone: </span>+372 56 215 857</p>
+            <p class="contacts-p"><img src="https://cdn-icons-png.flaticon.com/512/115/115757.png" alt="e-mail icon" class="icons"><span>E-mail: </span>jelizaveta05@gmail.com</p>
+            <p class="contacts-p"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="git icon" class="icons"><span>GitHub: </span>@veta05</p>
+            <p class="contacts-p"><img src="https://static-00.iconduck.com/assets.00/discord-icon-512x444-gicjsabr.png" alt="discord icon" class="icons"><span>Discord: </span>Evetta#3496</p>
+        </section>
+        </div>
+        <div class="container">
+        <section class="section-myself" id="myself">
+            <h2>About myself: </h2>
+            <p>
+                I'm studying at a technical school to become a junior software developer. 
+                There I realized that I wanted to choose the direction of the front-end. 
+                At the moment I devote time to this and I want to develop in this direction.
+                I love to learn, I love teamwork and I'm stress tolerant.
+            </p>
+        </section>
+        </div>
+        <div class="container">
+        <section class="section-skills" id="skills">
+            <h2>Skills: </h2>
+            <ul>
+                <li>HTML
+                <div class="skills-container">
+                    <div class="skills html">70%</div>
+                </div></li>
+
+                <li>CSS
+                <div class="skills-container">
+                    <div class="skills css">40%</div>
+                </div></li>
+
+                <li>JavaScript
+                <div class="skills-container">
+                    <div class="skills js">30%</div>
+                </div></li>
+
+                <li>Python
+                <div class="skills-container">
+                    <div class="skills python">20%</div>
+                </div></li>
+
+                <li>PHP
+                <div class="skills-container">
+                    <div class="skills php">30%</div>
+                </div></li>
+
+                <li>C#
+                <div class="skills-container">
+                    <div class="skills c">10%</div>
+                </div></li>
+
+                <li>MySql
+                <div class="skills-container">
+                    <div class="skills sql">60%</div>
+                </div></li>
+
+                <li>Access
+                <div class="skills-container">
+                    <div class="skills access">50%</div>
+                </div></li>
+            </ul>
+        </section>
+        </div>
+
+        <div class="container">
+        <section class="section-code" id="code-example">
+            <h2>Code example: </h2>
+            <pre class="code"><code>
+                side_a, side_b, side_c = input("PLease enter 3 sides of triangle: ") .split(" ")
+
+                print(side_a)
+                print(side_b)
+                print(side_c)
+
+                half_perimeter = (float(side_a) + float(side_b) + float(side_c)) / 2
+
+                triangle_square = (half_perimeter * (half_perimeter - float(side_a)) * (half_perimeter - float(side_b)) * (half_perimeter - float(side_c))) ** 0.5
+                print(triangle_square)
+            </code></pre>
+        </section>
+        </div>
+
+        <div class="section-column">
+        <div class="container">
+        <section class="section-education" id="education">
+            <h2>Education: </h2>
+            <p><span class="education-year">2019 - </span> Gamma Inteligence, Python Courses </p>
+            <p><span class="education-year">2021 - ... - </span>Technical school - junior software developer</p>
+        </section>
+        </div>
+
+        <div class="container">
+        <section class="section-languages" id="languages">
+            <h2>Languages: </h2>
+            <p><span class="lang">Russian - </span>native</p>
+            <p><span class="lang">Estonian - </span>advanced</p>
+            <p><span class="lang">English - </span>intermediate</p>
+            <p><span class="lang">Spanish - </span>starter</p>
+        </section>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <nav>
+        <ul class="footer-list">
+            <li><a href="https://github.com/Veta05" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/38/38401.png" class="icons" alt="github icon"></a></li>
+            
+            <li>&copy; J.A</li>
+            <li>2022</li>
+
+            <li><a href="https://rs.school/" target="_blank">
+                <img src="https://rs.school/images/rs_school.svg" class="rs-img" alt="rsschool logo">
+            </a></li>
+
+        </ul>
+        </nav>
+    </footer>
+</body>
+</html>

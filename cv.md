@@ -1,6 +1,6 @@
 # Jelizaveta Aia
 
-![photo](photo.jpg "My photo")
+![photo](/assets/photo.jpg "My photo")
 ******
 ## Contacts:
 **Phone:** +372 562 158 57

@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Alegreya Sans;
+    scroll-behavior: smooth;
+    line-height: 1.6;
+}
+
+body{
+    margin: 10px auto;
+	width: 1100px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h2{
+    display: inline;
+    border-bottom: 3px solid aquamarine;
+}
+header {
+    padding-bottom: 90px;
+}
+nav ul li {
+    display: inline;
+    text-align: right;
+    padding: 5px;
+    overflow: visible;
+    font-size: 20px;
+}
+.nav-list{
+    position: fixed;
+    top: 0;
+    width: 1100px;
+    background-color: #363536;
+    padding: 15px;
+
+}
+a:visited, a:link{
+    color: #fff;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-title{
+    margin-left: 200px;
+}
+.section-name{
+    margin-top: 80px;
+}
+
+.myphoto {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+  
+.myphoto:hover {
+    box-shadow: 0 0 2px 1px rgba(153, 86, 235, 0.5);
+}
+
+
+.section-contacts{
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+span{
+    font-weight: bold;
+    padding-left: 9px;
+}
+.icons{
+    width:2%;
+}
+
+.contacts-p{
+    padding-left: 7px;
+}
+.section-myself{
+    font-size: 18px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+.section-skills{
+    background-color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+ ul{
+    padding-left: 50px;
+ }
+ .skills-item-css{
+    padding-left: 10px;
+ }
+ .skills-container{
+    width: 90%;
+    background-color: #ddd;
+    margin-bottom: 5px;
+ }
+ .skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 20px;
+    color: black;
+  }
+.html {
+    width: 70%; 
+    background-color:
+        aquamarine;
+}
+.css {
+    width: 40%; 
+    background-color:
+     #2196F3;
+}
+.js {
+    width: 30%; 
+    background-color:
+     #a2e4e8;
+}
+.php {
+    width: 30%; 
+    background-color:
+     #34bbc7;
+}
+.python {
+    width: 20%; 
+    background-color:
+     #2099ba;
+}
+.c {
+    width: 10%; 
+    background-color:
+     #4d82a5;
+}
+.sql {
+    width: 60%; 
+    background-color:
+     #3bf2f8;
+}
+.access {
+    width: 50%; 
+    background-color:
+     #1c6599;
+}
+
+.section-code{
+    background-color: white;
+    padding-left: 130px;
+    font-size: 18px;
+}
+
+.section-column{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-left: 200px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.section-languages{
+    padding-left: 100px;
+}
+
+.rs-img{
+    width: 10%;
+}
+
+.footer-list{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
+  
