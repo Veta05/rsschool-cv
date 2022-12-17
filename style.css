@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
     line-height: 1.6;
 }
+
 body{
     margin: 10px auto;
 	width: 1100px;
@@ -109,7 +110,7 @@ span{
  .skills-container{
     width: 90%;
     background-color: #ddd;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
  }
  .skills {
     text-align: right;
@@ -161,6 +162,35 @@ span{
     background-color:
      #1c6599;
 }
+
+.section-code{
+    background-color: white;
+    padding-left: 130px;
+    font-size: 18px;
+}
+
+.section-column{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-left: 200px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.section-languages{
+    padding-left: 100px;
+}
+
+.rs-img{
+    width: 10%;
+}
+
+.footer-list{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
 
 
 
